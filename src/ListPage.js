@@ -23,16 +23,6 @@ class ListPage extends Component {
         <div className="container ListPage py-4">
           <div className="row justify-content-center">
             <div className="col-md-8">
-              <header className="mb-4">
-                <h1 className="mb-3">JSNES</h1>
-                <p>
-                  A JavaScript NES emulator.{" "}
-                  <a href="https://github.com/bfirsh/jsnes">
-                    Source on GitHub.
-                  </a>
-                </p>
-              </header>
-
               <ListGroup className="mb-4">
                 {Object.keys(config.ROMS)
                   .sort()

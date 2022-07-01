@@ -80,6 +80,21 @@ const config = {
         </span>
       ),
       url: "https://cdn.jsdelivr.net/gh/bfirsh/jsnes-roms@master/lj65/lj65.nes"
+    },
+    ducktales: {
+      name: "ducktales",
+      description: (
+        <span>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Concentration Room
+          </a>{"ducktales"}
+        </span>
+      ),
+      url: "./rooms/ducktales/ducktales.nes"
     }
   },
   GOOGLE_ANALYTICS_CODE: process.env.REACT_APP_GOOGLE_ANALYTICS_CODE,
