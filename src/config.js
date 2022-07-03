@@ -94,7 +94,7 @@ const config = {
           </a>{"ducktales"}
         </span>
       ),
-      url: "./rooms/ducktales/ducktales.nes"
+      url: process.env.PUBLIC_URL+"/roms/ducktales/ducktales.nes"
     }
   },
   GOOGLE_ANALYTICS_CODE: process.env.REACT_APP_GOOGLE_ANALYTICS_CODE,
